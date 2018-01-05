@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I..\FWlib\inc -I..\USER -I..\CMSIS -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\pwm_output.o" --omf_browse "..\Output\pwm_output.crf" --depend "..\Output\pwm_output.d" "pwm_output.c"
